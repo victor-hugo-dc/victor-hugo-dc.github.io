@@ -55,7 +55,7 @@ const Data = () => {
         </svg>
         <h3 className="home__subtitle">Software Engineer</h3>
         <p className="home__description">
-            I'm an incoming Azure Core intern at Microsoft and undergraduate student at Yale University.
+            I'm an incoming Azure Core intern at Microsoft and Computer Science student at Yale University.
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello
