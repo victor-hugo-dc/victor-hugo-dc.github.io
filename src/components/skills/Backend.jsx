@@ -54,10 +54,13 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i class='bx bx-stats'></i>
+                    {/* <i class='bx bx-stats'></i> */}
+                    <i class='bx bx-code-alt'></i>
+                    {/* <i class="fa fa-code"></i> */}
+
                     <div>
-                        <h3 className="skills__name">R</h3>
-                        <span className="skills__level">4 Years</span>
+                        <h3 className="skills__name">C#</h3>
+                        <span className="skills__level">3 Years</span>
                     </div>
                 </div>
                 
