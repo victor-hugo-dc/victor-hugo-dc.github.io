@@ -19,7 +19,7 @@ const Contact = () => {
                                 Email
                             </h3>
                             <span className="contact__card-data">
-                                user@gmail.com
+                                delcarpio.vh@gmail.com
                             </span>
                         </div>
 
