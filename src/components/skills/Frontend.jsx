@@ -13,7 +13,7 @@ const Frontend = () => {
                     <i class='bx bxl-html5'></i>
                     <div>
                         <h3 className="skills__name">HTML</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">7 Years</span>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ const Frontend = () => {
                     <i class='bx bxl-css3' ></i>
                     <div>
                         <h3 className="skills__name">CSS</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">7 Years</span>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Frontend = () => {
                     <i class='bx bxl-javascript' ></i>
                     <div>
                         <h3 className="skills__name">JavaScript</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">7 Years</span>
                     </div>
                 </div>
                 
@@ -41,7 +41,7 @@ const Frontend = () => {
                     <i class='bx bxl-git' ></i>
                     <div>
                         <h3 className="skills__name">Git</h3>
-                        <span className="skills__level">Advanced</span>
+                        <span className="skills__level">4 Years</span>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Frontend = () => {
                     <i class='bx bxl-react' ></i>
                     <div>
                         <h3 className="skills__name">React</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">1 Year</span>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ const Frontend = () => {
                     <i class='bx bxl-flask'></i>
                     <div>
                         <h3 className="skills__name">Flask</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">4 Years</span>
                     </div>
                 </div>
                 

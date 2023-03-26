@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                    Aspiring Software Engineer, I focus heavily on AI-related software but enjoy distributed systems and human-computer interaction.
+                   I'm a third year at Yale University majoring in Computer Science and currently on a leave of absence. I'm a fan of AI and Human-Computer Interaction.
                 </p>
                 <a download="VictorDelCarpio.pdf" href={Resume} className="button button--flex">
                     Download Resume

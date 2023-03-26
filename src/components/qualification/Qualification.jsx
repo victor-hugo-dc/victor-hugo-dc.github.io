@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./qualification.css"
+import { QualificationItem } from './QualificationItem';
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
@@ -42,14 +43,7 @@ const Qualification = () => {
             <div className="qualification__sections">
                 <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Advanced Diploma</h3>
-                            <span className="qualifaction__subtitle">Centreville High School</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2015 - 2019
-                            </div>
-                        </div>
-
+                        <QualificationItem title="Advanced Diploma" subtitle="Centreville High School" timeline="2015 - 2019"/>
                         <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
@@ -62,104 +56,21 @@ const Qualification = () => {
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
-                        
-                        <div>
-                            <h3 className="qualification__title">MOSTEC OEOP Program</h3>
-                            <span className="qualifaction__subtitle">Massachussets Institute of Technology</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2018-2019
-                            </div>
-                        </div>
+                        <QualificationItem title="MOSTEC OEOP Program" subtitle="Massachussets Institute of Technology" timeline="2018-2019"/>
                     </div>
 
                     <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Bachelors in Computer Science</h3>
-                            <span className="qualifaction__subtitle">Yale University</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2019 - Present
-                            </div>
-                        </div>
-
+                        <QualificationItem title="Bachelors in Computer Science" subtitle="Yale University" timeline="2019 - Present"/>
                         <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
                     </div>
-
-                    {/* <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        
-                        <div>
-                            <h3 className="qualification__title">Student Technician</h3>
-                            <span className="qualifaction__subtitle">Student Technology Collaborative</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2019 - Present
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
 
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Student Technician</h3>
-                            <span className="qualifaction__subtitle">Student Technology Collaborative (STC)</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2019 - 2023
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    {/* <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        
-                        <div>
-                            <h3 className="qualification__title">Undergraduate Research Assistant</h3>
-                            <span className="qualifaction__subtitle">Efficient Computing Lab @ Yale</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2020
-                            </div>
-                        </div>
-                    </div> */}
-
-                    <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        
-                        <div>
-                            <h3 className="qualification__title">Undergraduate Research Assistant</h3>
-                            <span className="qualifaction__subtitle">Interactive Machines Group @ Yale</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> June - Dec, 2021
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Queue Coordinator</h3>
-                            <span className="qualifaction__subtitle">Student Technology Colaborative (STC)</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - 2023
-                            </div>
-                        </div>
+                        <QualificationItem title="Student Technician" subtitle="Student Technology Collaborative (STC)" timeline="2019 - 2023"/>
 
                         <div>
                             <span className="qualification__rounder"></span>
@@ -174,13 +85,25 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         
+                        <QualificationItem title="Undergraduate Research Assistant" subtitle="Interactive Machines Group @ Yale" timeline="June - Dec, 2021"/>
+                    </div>
+
+                    <div className="qualification__data">
+                        <QualificationItem title="Azure Core SWE Intern" subtitle="Microsoft" timeline="May - Aug, 2022"/>
+
                         <div>
-                            <h3 className="qualification__title">Student Technician</h3>
-                            <span className="qualifaction__subtitle">Student Technology Collaborative</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2019 - Present
-                            </div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
                         </div>
+                    </div>
+
+                    <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <QualificationItem title="Queue Coordinator" subtitle="Student Technology Colaborative (STC)" timeline="2022 - 2023"/>
                     </div>
                 </div>
             </div>
