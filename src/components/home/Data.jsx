@@ -6,7 +6,7 @@ const Data = () => {
         <h1 className="home__title">Victor Hugo</h1>
         <h3 className="home__subtitle">Software Engineer</h3>
         <p className="home__description">
-            I'm an incoming Software Engineering intern at Snapchat and Ex-Microsoft Azure Core intern. Previously a Computer Science student at Yale University.
+            I'm a Software Engineering at Luminous Delivery. Previously at Snapchat and Microsoft. Former Computer Science student at Yale University.
         </p>
     </div>
   );
