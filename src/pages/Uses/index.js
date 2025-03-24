@@ -18,16 +18,16 @@ const Uses = () => {
                         Hardware
                     </h2>
                     <ul className='mb-16'>
-                        <li><a href="https://www.apple.com/macbook-air/" target="_blank" rel="noreferrer">13" M1 MacBook Air (2020)</a>: Personal Laptop.</li>
-                        <li><a href="https://www.apple.com/shop/product/MXCL3LL/A/magic-keyboard-usb-c-us-english" target="_blank" rel="noreferrer">Apple Magic Keyboard</a>: Perfect low-profile companion for my PC setup.</li>
-                        <li><a href="https://www.logitech.com/en-us/products/mice/mx-master-2s.910-005338.html" target="_blank" rel="noreferrer">Logitech MX Master 2S</a>: Greatest mouse of all time.</li>
+                        <li><a href="https://support.apple.com/en-us/111883" target="_blank" rel="noreferrer">13" M1 MacBook Air (2020)</a>: Personal Laptop.</li>
+                        <li><a href="https://support.apple.com/en-us/112443" target="_blank" rel="noreferrer">Apple Magic Keyboard</a>: Perfect low-profile companion for my PC setup.</li>
+                        <li><a href="https://support.logi.com/hc/en-gb/articles/360023459853-MX-MASTER-2S-WIRELESS-MOUSE" target="_blank" rel="noreferrer">Logitech MX Master 2S</a>: Greatest mouse of all time.</li>
                         <li><a href="https://www.dell.com/support/home/en-us/product-support/product/poweredge-t320/docs" target="_blank" rel="noreferrer">Dell PowerEdge T320</a>: Home server.</li>
-                        <li><a href="https://www.apple.com/iphone-15-pro/" target="_blank" rel="noreferrer">iPhone 15 Pro</a>: Primary phone.</li>
-                        <li><a href="https://www.apple.com/airpods-max/" target="_blank" rel="noreferrer">AirPods Max</a>: Double as my gym and gaming headphones.</li>
+                        <li><a href="https://support.apple.com/en-us/111829" target="_blank" rel="noreferrer">iPhone 15 Pro</a>: Primary phone.</li>
+                        <li><a href="https://support.apple.com/en-us/111858" target="_blank" rel="noreferrer">AirPods Max</a>: Double as my gym and gaming headphones.</li>
                         {/* <li><a href="https://www.apple.com/apple-watch-se/" target="_blank" rel="noreferrer">Apple Watch SE (2nd Gen)</a>: Fitness tracking and notification management companion.</li> */}
                         <li><a href="https://www.seagate.com/products/portable-hard-drives/portable/" target="_blank" rel="noreferrer">Seagate Portable 1TB HDD</a>: Data backup solution.</li>
                         <li><a href="https://www.usa.canon.com/support/p/eos-rebel-sl2" target="_blank" rel="noreferrer">Canon EOS Rebel SL2</a>: How I document my travels.</li>
-                        <li><a href="https://www.panasonic.com/global/consumer/av/products/camcorders/mini_dv/ag-dvc30.html" target="_blank" rel="noreferrer">Panasonic Palmcorder MiniDV</a>: My dad's old palmcorder and my new project.</li>
+                        <li><a href="https://www.manualslib.com/manual/247250/Panasonic-Pv-Dv100.html" target="_blank" rel="noreferrer">Panasonic Palmcorder MiniDV</a>: How I record my fishing trips now.</li>
                     </ul>
                     <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white font-bold text-xl text-title">
                         Software
@@ -46,7 +46,7 @@ const Uses = () => {
                     <ul>
                         <li><a href="https://www.hipcamp.com/" target="_blank" rel="noreferrer">Hipcamp</a>: For discovering offbeat camping spots and cabins.</li>
                         <li><a href="https://www.waze.com/" target="_blank" rel="noreferrer">Waze</a>: Community-powered navigation for road trips.</li>
-                        <li><a href="https://phantom.app/" target="_blank" rel="noreferrer">Phantom Wallet</a>: Managing my Solana-based assets.</li>
+                        <li><a href="https://phantom.com/" target="_blank" rel="noreferrer">Phantom Wallet</a>: Managing my Solana-based assets.</li>
                     </ul>
                 </div>
             </div>

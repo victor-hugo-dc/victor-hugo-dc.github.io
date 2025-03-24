@@ -10,30 +10,24 @@ const About = () => {
                 </h1>
                 <div className="mb-8 prose leading-6 text-justify text-gray-600 dark:text-gray-400">
                     <p>
-                        Hey, I&apos;m Vic. I&apos;m a developer, martial artist, outdoor enthusiast and just a naturally curious person in life.
-                        I&apos;m currently based in the Washington, D.C. area, where I work at Around Town Movers as a SWE working on product integration.
-                        On the side, I run Javi Web Design, a small venture where I help local businesses create sleek, functional websites that stand out in the digital world.
+                        Hey, I&apos;m Vic. I&apos;m a software developer, martial artist, and outdoor enthusiast.
+                        I&apos;m currently based in Northern Virginia, where I work at Around Town Movers as a SWE working on automating their workflows.
+                        On the side, I run Javi Web Design, a small venture where my long-time friend and I help local businesses create modern, functional websites that stand out in the digital world.
                     </p>
                     <p>
-                        I have previously had the pleasure of working at Microsoft and Snap, Inc.
-                        Having come a long way from being an undergraduate researchers at the Yale Interactive Machines Group, I am deeply interested in AI, Robotics, and HCI.
-                        I&apos;ve also had the chance to contribute to open-source projects, such as PandasAI.
+                        My path has wound through internships at tech titans like Microsoft and Snap, Inc., and formative years at Yale University, where I contributed to AI and robotics research at the Interactive Machines Group and a brief stint at the Efficient Computing Lab.
+                        Though I paused my degree due to mental health concerns, I will be resuming my academic journey this fall at James Madison University, with an anticipated graduation date of May 2026.
                     </p>
                     <p>
-                        Every step of the way, I&apos;ve been driven by curiosity and a love for solving complex problems.
-                    </p>
-                    {/* <p>
-                        When I&apos;m not glued to my laptop, you&apos;ll find me:
+                        Currently, I&apos;m working on the following:
                         <div>
                             <ul>
-                                <li>On the Potomac on the prowl for snakehead.</li>
-                                <li>Deep in thought, contemplating my next chess move.</li>
-                                <li>Tinkering with my home server.</li>
-                                <li>Rooting against Dagestanis in the UFC.</li>
-                                <li>Sketching with charcoal while Jimi Hendrix soundtracks my descent into artistic madness.</li>
+                                <li>Installing Pi-Hole and WireGuard on my home server.</li>
+                                <li>Planning out a fishing trip to OBX, where I intend to use my new kayak.</li>
+                                <li>Studying for the AWS Cloud Architect Exam.</li>
                             </ul>
                         </div>
-                    </p> */}
+                    </p>
                 </div>
             </div>
         </Box>

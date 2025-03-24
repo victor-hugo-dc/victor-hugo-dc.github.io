@@ -10,11 +10,11 @@ const Home = () => {
                 </h1>
                 <div className="mb-8 prose leading-6 text-justify text-gray-600 dark:text-gray-400">
                     <p>
-                        I&apos;m a software engineer from Peru, based in Northern Virginia. I specialize in backend development and occasionally dabble into full-stack. Currently, I'm working on transforming the tech stack at <a target="_blank" rel="noreferrer" href="https://www.aroundtownmovers.com/">Around Town Movers</a> and building websites at <a target="_blank" rel="noreferrer" href="https://javiwebdesign.com/">Javi Web Design</a>.
+                        I&apos;m a software engineer from Peru, based in Northern Virginia. I specialize in backend development but occasionally venture into full-stack projects. Currently, I'm modernizing tech infrastructure at <a target="_blank" rel="noreferrer" href="https://www.aroundtownmovers.com/">Around Town Movers</a> and building websites at <a target="_blank" rel="noreferrer" href="https://javiwebdesign.com/">Javi Web Design</a>.
                         <br /><br />
-                        I&apos;ve had the opportunity to intern at companies like <a target="_blank" rel="noreferrer" href="https://www.microsoft.com/en-us/">Microsoft</a> and <a target="_blank" rel="noreferrer" href="https://www.snapchat.com/">Snap, Inc.</a>, and I&apos;ve also been part of the Yale Interactive Machines group.
+                        As a former QuestBridge Scholar at Yale University, I&apos;ve had the opportunity to intern at companies like <a target="_blank" rel="noreferrer" href="https://www.microsoft.com/en-us/">Microsoft</a> and <a target="_blank" rel="noreferrer" href="https://www.snapchat.com/">Snap, Inc.</a>, as well as contribute to research at the <a target="_blank" rel='noreferrer' href='https://interactive-machines.com/'>Interactive Machines group</a>.
                         <br /><br />
-                        When I&apos;m not coding or contributing to open-source projects, you&apos;ll find me outdoors camping, fishing, or practicing martial arts. I also enjoy tinkering with tech, playing chess, and exploring my creative side through charcoal drawing.
+                        Beyond the keyboard, I chase adventure: winter glamping in snow-draped forests, casting lines into the Potomac&apos;s currents, and the disciplined pursuit of Muay Thai—now tempered with Jiu-Jitsu. I document memories through a DSLR lens and my dad&apos;s retro Palmcorder, and lose hours to charcoal&apos;s bold strokes.
                     </p>
                 </div>
                 <hr className="hr" />
