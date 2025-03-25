@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Stack, Link, IconButton, Box } from '@mui/material';
-import { Menu } from '@mui/icons-material';
-// import Footer from '@/components/Footer'; // Adjust the import path as needed
+import { Stack, Link, Box, IconButton } from '@mui/material';
+import Footer from '../../components/Footer';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const MainLayout = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -34,25 +34,29 @@ const MainLayout = () => {
             >
 
                 <IconButton
-                    aria-label="Toggle Menu"
                     onClick={toggleMenu}
-                    sx={{ display: { xs: 'inline-block', md: 'none' }, bgcolor: 'inherit', p: 1 }}
+                    sx={{
+                        display: { xs: 'block', md: 'none' },
+                        color: 'white',
+                    }}
                 >
-                    <Menu />
+                    <MenuIcon />
                 </IconButton>
 
+                {/* Navigation Links */}
                 <Box
                     sx={{
                         display: { xs: menuOpen ? 'flex' : 'none', md: 'flex' },
                         flexDirection: { xs: 'column', md: 'row' },
                         position: { xs: 'absolute', md: 'static' },
-                        top: { xs: 64, md: 0 },
+                        top: { xs: '60px', md: 'auto' },
                         left: 0,
-                        bgcolor: 'inherit',
                         width: { xs: '100%', md: 'auto' },
-                        p: { xs: 2, md: 0 },
+                        bgcolor: { xs: '#000', md: 'transparent' },
+                        px: { xs: 3, md: 0 },
+                        py: { xs: 2, md: 0 },
+                        gap: { xs: 3, md: 6 },
                         zIndex: 999,
-                        gap: 6,
                     }}
                 >
                     <Link href="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
@@ -73,10 +77,8 @@ const MainLayout = () => {
             <Box component="main" sx={{ flexGrow: 1, height: "100%", marginTop: "4rem" }}>
                 <Outlet />
             </Box>
-            
 
-            {/* Footer */}
-            {/* <Footer /> */}
+            <Footer />
         </Stack>
     );
 };

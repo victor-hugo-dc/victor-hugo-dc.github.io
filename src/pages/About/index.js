@@ -10,20 +10,27 @@ const About = () => {
                 </h1>
                 <div className="mb-8 prose leading-6 text-justify text-gray-600 dark:text-gray-400">
                     <p>
-                        Hey, I&apos;m Vic. I&apos;m a software developer, martial artist, and outdoor enthusiast.
-                        I&apos;m currently based in Northern Virginia, where I work at Around Town Movers as a SWE working on automating their workflows.
-                        On the side, I run Javi Web Design, a small venture where my long-time friend and I help local businesses create modern, functional websites that stand out in the digital world.
+                        Hey, I&apos;m Vic—a software developer, martial artist, and outdoor enthusiast based in Northern Virginia.
+                        I work as a software engineer at Around Town Movers, where I focus on automating workflows and modernizing systems for scalability.
+                        On the side, I run Javi Web Design, a small venture I co-founded with a longtime friend to help local businesses build modern, functional websites that stand out in the digital world.
                     </p>
                     <p>
-                        My path has wound through internships at tech titans like Microsoft and Snap, Inc., and formative years at Yale University, where I contributed to AI and robotics research at the Interactive Machines Group and a brief stint at the Efficient Computing Lab.
-                        Though I paused my degree due to mental health concerns, I will be resuming my academic journey this fall at James Madison University, with an anticipated graduation date of May 2026.
+                        My journey has taken me through internships at Microsoft and Snap, Inc., as well as research roles at Yale&apos;s Interactive Machines Group and a brief stint at the Efficient Computing Lab.
+                        Though I stepped away from my degree for mental health reasons, I&apos;ll be resuming my academic journey this fall at James Madison University, with an anticipated graduation date of May 2026.
                     </p>
                     <p>
-                        Currently, I&apos;m working on the following:
+                        Outside of tech, I&apos;m an avid outdoorsman. I camp often with friends, dabble in fishing, and am still getting the hang of snowboarding.
+                        At home, I love tinkering with my self-hosted server, setting up services like Seafile, WordPress, a Minecraft server, and a custom Discord bot for music.
+                        Martial arts is another big part of my life—I&apos;ve been training in Muay Thai for a few years and recently started Jiu-Jitsu.
+                        I&apos;m also passionate about photography and art.
+                    </p>
+                    <p>
+                        Currently, I&apos;m working on the following projects:
                         <div>
                             <ul>
                                 <li>Installing Pi-Hole and WireGuard on my home server.</li>
                                 <li>Planning out a fishing trip to OBX, where I intend to use my new kayak.</li>
+                                <li>Digitizing cassettes from my dad&apos;s Palmcorder that had been collecting dust.</li>
                                 <li>Studying for the AWS Cloud Architect Exam.</li>
                             </ul>
                         </div>
