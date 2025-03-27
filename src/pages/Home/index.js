@@ -15,8 +15,6 @@ const Home = () => {
                         As a former QuestBridge Scholar at Yale University, I&apos;ve had the opportunity to intern at companies like <a target="_blank" rel="noreferrer" href="https://www.microsoft.com/en-us/">Microsoft</a> and <a target="_blank" rel="noreferrer" href="https://www.snapchat.com/">Snap, Inc.</a>, as well as contribute to research at the <a target="_blank" rel='noreferrer' href='https://interactive-machines.com/'>Interactive Machines group</a>.
                         <br /><br />
                         Beyond the keyboard, I chase adventure: winter glamping in snow-draped forests, casting lines into the Potomac&apos;s currents, and the disciplined pursuit of Muay Thai—now tempered with Jiu-Jitsu. I document memories through a DSLR lens and my dad&apos;s retro Palmcorder, and lose hours to charcoal&apos;s bold strokes.
-                        <br /><br />
-                        Learn a bit more <a target="_self" rel="noreferrer" href="/about">about me</a>.
                     </p>
                 </div>
                 <hr className="hr" />
