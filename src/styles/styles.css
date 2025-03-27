@@ -1061,9 +1061,6 @@ body[data-aos-easing=ease] [data-aos] {
     transform: translate3d(0, 100px, 0);
 }
 
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
 :root {
     --header-height: 3rem;
@@ -1422,8 +1419,6 @@ h2 {
     color: rgb(156 163 175/var(--tw-text-opacity));
 }
 
-/* ------------------------------------ */
-/*! CSS Used from: https://rohitjmathew.space/_next/static/css/2ab348b9cf5cd6cb.css */
 *,
 :after,
 :before {
@@ -2112,7 +2107,6 @@ html {
     }
 }
 
-/*! CSS Used from: https://dwiwijaya.com/_next/static/css/c8678d1df33a1158.css */
 *,
 :after,
 :before {
