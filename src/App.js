@@ -1,14 +1,9 @@
-import './App.css';
-import Home from './components/home/Home';
+import Router from './routes';
 
 function App() {
-  return (
-    <>
-      <main className='main'>
-        <Home />
-      </main>
-    </>
-  );
+    return (
+        <Router/>
+    );
 }
 
 export default App;
