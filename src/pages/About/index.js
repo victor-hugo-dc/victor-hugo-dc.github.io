@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 
 const About = () => {
     return (
-        <Box sx={{ width: "650px", margin: "auto" }}>
+        <Box sx={{ width: "650px", maxWidth: '80%', margin: "auto" }}>
             <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white ml-3 relative font-bold text-3xl dots text-title">
                     About Me
@@ -26,15 +26,13 @@ const About = () => {
                     </p>
                     <p>
                         Currently, I&apos;m working on the following projects:
-                        <div>
-                            <ul>
-                                <li>Installing Pi-Hole and WireGuard on my home server.</li>
-                                <li>Planning out a fishing trip to OBX, where I intend to use my new kayak.</li>
-                                <li>Digitizing cassettes from my dad&apos;s Palmcorder that had been collecting dust.</li>
-                                <li>Studying for the AWS Cloud Architect Exam.</li>
-                            </ul>
-                        </div>
                     </p>
+                    <ul>
+                        <li><p>Installing Pi-Hole and WireGuard on my home server.</p></li>
+                        <li><p>Planning out a fishing trip to OBX, where I intend to use my new kayak.</p></li>
+                        <li><p>Digitizing cassettes from my dad&apos;s Palmcorder that had been collecting dust.</p></li>
+                        <li><p>Studying for the AWS Cloud Architect Exam.</p></li>
+                    </ul>
                 </div>
             </div>
         </Box>

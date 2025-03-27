@@ -6,7 +6,7 @@ import ProjectLink from './ProjectLink';
 
 const Skills = () => {
     return (
-        <Box sx={{ width: "650px", margin: "auto" }}>
+        <Box sx={{ width: "650px", maxWidth: '80%', margin: "auto" }}>
             <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white ml-3 relative font-bold text-3xl dots text-title">
                     My Skillset

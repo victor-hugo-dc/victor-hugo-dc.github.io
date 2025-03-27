@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Stack, Link, Box, IconButton } from '@mui/material';
-import Footer from '../../components/Footer';
 import MenuIcon from '@mui/icons-material/Menu';
+import Footer from '../../components/Footer';
 
 const MainLayout = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -12,8 +12,7 @@ const MainLayout = () => {
     };
 
     return (
-        // color #8fa2bb
-        <Stack sx={{ bgcolor: '#000', color: '#e7e7e7', height: "100%" }}>
+        <Stack sx={{ bgcolor: '#000', color: '#e7e7e7', minHeight: "100vh" }}>
             <Box
                 component="nav"
                 sx={{
@@ -21,7 +20,7 @@ const MainLayout = () => {
                     alignItems: 'center',
                     justifyContent: 'flex-end',
                     width: '650px',
-                    maxWidth: '1200px',
+                    maxWidth: '100%',
                     mx: 'auto',
                     p: 2,
                     bgcolor: '#000',
@@ -29,7 +28,6 @@ const MainLayout = () => {
                     top: 0,
                     zIndex: 1000,
                     marginTop: '2rem',
-                    marginBottom: '2rem',
                 }}
             >
 
@@ -53,7 +51,7 @@ const MainLayout = () => {
                         left: 0,
                         width: { xs: '100%', md: 'auto' },
                         bgcolor: { xs: '#000', md: 'transparent' },
-                        px: { xs: 3, md: 0 },
+                        px: { xs: 5, md: 0 },
                         py: { xs: 2, md: 0 },
                         gap: { xs: 3, md: 6 },
                         zIndex: 999,
@@ -74,7 +72,7 @@ const MainLayout = () => {
                 </Box>
             </Box>
 
-            <Box component="main" sx={{ flexGrow: 1, height: "100%", marginTop: "4rem" }}>
+            <Box component="main" sx={{ flexGrow: 1, width: '100%', maxWidth: '100%', marginTop: "10vh" }}>
                 <Outlet />
             </Box>
 

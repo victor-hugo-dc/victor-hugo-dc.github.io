@@ -1,10 +1,11 @@
 import { Suspense, lazy } from "react";
 import { useRoutes } from "react-router-dom";
 import MainLayout from "../layouts/main";
+import Loader from "../components/Loader";
 
 const Loadable = (Component) => (props) => {
     return (
-        <Suspense fallback={<></>}>
+        <Suspense fallback={<Loader />}>
             <Component {...props} />
         </Suspense>
     );
