@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react";
-import { useRoutes } from "react-router-dom";
+import { Navigate, useRoutes } from "react-router-dom";
 import MainLayout from "../layouts/main";
 import Loader from "../components/Loader";
 
@@ -21,6 +21,8 @@ export default function Router() {
                 { path: "about", element: <AboutPage /> },
                 { path: "skills", element: <SkillsPage /> },
                 { path: "uses", element: <UsesPage /> },
+                { path: "404", element: <Page404 /> },
+                { path: "*", element: <Navigate to="/404" replace /> },
             ],
         },
     ]);
@@ -30,3 +32,4 @@ const HomePage = Loadable(lazy(() => import("../pages/Home")));
 const AboutPage = Loadable(lazy(() => import("../pages/About")));
 const SkillsPage = Loadable(lazy(() => import("../pages/Skills")));
 const UsesPage = Loadable(lazy(() => import("../pages/Uses")));
+const Page404 = Loadable(lazy(() => import("../pages/404")));
