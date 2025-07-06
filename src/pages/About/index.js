@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box } from '@mui/material';
 
 const About = () => {
@@ -28,10 +27,10 @@ const About = () => {
                         Currently, I&apos;m working on the following projects:
                     </p>
                     <ul>
-                        <li><p>Installing Pi-Hole and WireGuard on my home server.</p></li>
-                        <li><p>Planning out a fishing trip to OBX, where I intend to use my new kayak.</p></li>
+                        <li><p>Experimenting with Open WebUI on Google Cloud.</p></li>
+                        <li><p>Starting a small flower garden in my backyard.</p></li>
                         <li><p>Digitizing cassettes from my dad&apos;s Palmcorder that had been collecting dust.</p></li>
-                        <li><p>Studying for the AWS Cloud Architect Exam.</p></li>
+                        <li><p>Preparing for technical interviews.</p></li>
                     </ul>
                 </div>
             </div>
